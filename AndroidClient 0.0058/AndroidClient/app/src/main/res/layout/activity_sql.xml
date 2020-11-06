@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.example.myapplication.DownloadActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonGetAll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/get_all" />
+
+            <Button
+                android:id="@+id/buttonSendAllDocuments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/send_all_documents" />
+
+            <Button
+                android:id="@+id/buttonGetSell"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/get_sell" />
+
+            <Button
+                android:id="@+id/buttonGetAdmisson"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/get_admission" />
+
+            <Button
+                android:id="@+id/buttonGetBalances"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/get_balances" />
+
+            <Button
+                android:id="@+id/buttonGet2DBarcodes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/get_2d_barcodes" />
+
+            <Button
+                android:id="@+id/buttonGetBarcodes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/get_barcodes" />
+
+            <Button
+                android:id="@+id/buttonGetWarehouses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/get_warehouses" />
+
+            <Button
+                android:id="@+id/buttonGetProducts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/get_products" />
+
+            <Button
+                android:id="@+id/buttonGetUsers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/get_users" />
+
+            <Button
+                android:id="@+id/buttonDBack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/back" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
